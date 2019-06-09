@@ -71,11 +71,34 @@ p {
     margin: 0 auto;
 }
 
+header{
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+header nav{
+    width: 600px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+header img{
+    padding: 20px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
