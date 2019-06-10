@@ -95,43 +95,23 @@ header nav a:hover{
     color: white;
     font-size: 150%;
 }
-
-/* ^^ Header and Nav ^^ */
-
 .top-content{
     padding-bottom: 20px;
     margin: 20px 0;
-    border-bottom: 1px dashed black;
-}
-
-/* ^^ About Section ^^*/
-
-.main-content{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.main-content .box{
-    width: 370px;
-    padding: 20px 0;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.button{
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: white;
-    width: 110px;
-    padding: 5px;
-    margin-top: 15px;
-}
-
-/* ^^ Main content ^^ */
-.end-content{
-    margin: 20px 0;
     margin-left: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.form{
+    background-color: beige;
+    margin-bottom: 20px;
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    
 }
 
 footer {
